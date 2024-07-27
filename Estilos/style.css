@@ -39,6 +39,11 @@ body {
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+    color: var(--corprimaria);
+}
+
 
 /* COMEÇO DO CABEÇALHO */
 
@@ -415,6 +420,27 @@ main {
 
 }
 
+.salao-saber-mais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3%;
+    border-top: 1px solid #3d1f1d49;
+}
+
+.salao-saber-mais h3 {
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.btn-salao {
+    border: none;
+    text-align: center;
+    margin: 2%;
+}
+
 
 
 
@@ -730,11 +756,28 @@ footer p {
 
 .txt-endereco p {
     font-size: 18px;
+    margin-top: 0;
 }
 
 .maps {
     width: 100%;
     margin-top: 10%;
+}
+.btn-2 {
+    font-size: 30px;
+}
+
+.salao-saber-mais {
+    width: 100%;
+}
+
+.salao-saber-mais h3 {
+    font-size: 1.4rem;
+}
+
+.btn-salao {
+    width: 80%;
+    font-size: 1.7rem;
 }
 
 }
